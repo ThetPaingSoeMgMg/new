@@ -1,0 +1,18 @@
+ .fe {
+     border: 1px dotted black;
+     display: grid;
+     gap: 10px;
+     grid-auto-flow: column;
+     grid-template: repeat(3, 100px)/repeat(5, 50px);
+ }
+ 
+ .mg:nth-last-of-type(6) {
+     grid-column-start: 1;
+     grid-column-end: 4;
+ }
+ 
+ .mg:nth-last-of-type(7) {
+     grid-column-start: 1;
+     grid-column-end: 4;
+     place-self: start center;
+ }
